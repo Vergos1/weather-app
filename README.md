@@ -1,32 +1,53 @@
-# WeatherApp - Interactive Weather Dashboard
+# Weather App
 
-![WeatherApp Preview](src/img/weather-app-preview.jpg)
+Interactive weather dashboard with real-time forecasts — temperature, humidity, wind and pressure.
 
-Welcome to the WeatherApp project! This is an interactive web application that provides real-time weather data, including temperature, humidity, pressure, and wind speed.
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=flat&logo=sass&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+
+## About
+
+Weather App is an interactive weather dashboard that provides real-time weather data for any location worldwide. Displays temperature, humidity, pressure and wind speed with a clean responsive interface powered by the Visual Crossing Weather API.
+
+🔗 **Live:** [weather-app](https://vergos1.github.io/weather-app/)
+
+## Pages
+
+| Page | Description |
+|---|---|
+| **Home** | Weather dashboard with real-time data |
 
 ## Features
 
-- **Real-Time Weather Data**: Access up-to-date weather information for locations around the world.
-- **Interactive Dashboard**: Engage with the weather data through a user-friendly and interactive interface.
-- **Responsive Design**: Whether on desktop, tablet, or mobile, get the full experience with a responsive layout that adapts to your device.
+- **Real-time weather data** — current conditions from Visual Crossing API
+- **Weather metrics** — temperature, humidity, pressure and wind speed
+- **Location search** — weather for any city worldwide
+- **Responsive** — adaptive layout for desktop, tablet and mobile
+- **Error handling** — graceful message when API does not respond
 
-## Technologies Used
+## Tech Stack
 
-- **HTML5**: For structuring the web application content.
-- **SCSS**: For advanced styling and responsive design.
-- **JavaScript**: To handle the interactivity and fetch weather data from APIs.
+| Technology | Purpose |
+|---|---|
+| HTML5 | Page structure |
+| SCSS | Styling |
+| JavaScript | API requests and interactivity |
+| Visual Crossing API | Weather data provider |
 
-## Acknowledgments
+## Getting Started
 
-- Thanks to all the open-source APIs and libraries that made this project possible.
-- Appreciation for the community and contributors who provided feedback and suggestions.
-[Visual Crossing](https://www.visualcrossing.com)
----
+No build step required — open directly in browser.
 
-## Setup
+```bash
+# Clone the repository
+git clone https://github.com/Vergos1/weather-app.git
 
-Clone the repository and run the following command to start the development server:
-[git clone https://github.com/Vergos1/project_hogwarts-parallax.git ](https://github.com/Vergos1/pet-project_weatherApp.git)
+# Open in browser
+open index.html
+```
 
-## Created by
-Design and any crafted with 💜 by [Ihor Yanchuk](https://github.com/Vergos1). For more information or to view my other work, please visit [my portfolio](http://yanchuk.vinnytsia.ua/).
+## Author
+
+Designed and developed by **Ihor Yanchuk**
+[Portfolio](https://github.com/Vergos1) · [GitHub](https://github.com/Vergos1)
